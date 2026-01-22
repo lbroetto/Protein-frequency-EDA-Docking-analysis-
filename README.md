@@ -1,6 +1,3 @@
-# EDA-Resistance_Persistence-protein-docking-analysis
-Analysis scripts for the manuscript "Exploring the Molecular Basis of Potassium Usnate Activity Against Staphylococcus warneri Persistence and Resistance Through Protein Interaction Networks and Molecular Docking"
-
 # Computational Analysis Scripts for Exploratory data analysis and docking analysis of proteins
 
 The scripts were written and developed by Leonardo Broetto (leonardo.broetto@arapiraca.ufal.br, Lbroetto@gmail.com)
@@ -57,11 +54,12 @@ This repository contains the custom Python scripts used for the computational an
 - Visualization of the energy-vs-stability relationship
 - Automated data cleaning for decimal format conversion
 
-Script	                     Purpose	                           Required CSV                                   Columns	Output Figure
-EDA_analysis.py	            Exploratory heatmaps & clustering	Matrix format (rows=features, cols=samples)	  heatmap.png, clustermap.png, correlation_matrix.png
-docking_heatmap.py	         Energy score heatmap	Protein,       Ligand, Energy_Score	                          docking_energy_heatmap.png
-docking_relplot_ligand.py	   Energy vs H-bonds by ligand	      Ligand, Energy_Score(kcal/mol),                Hydrogen_Bonds	energy_vs_hbonds_by_ligand.png
-docking_relplot_protein.py	   Energy vs H-bonds by protein	      Protein, Energy_Score(kcal/mol),               Hydrogen_Bonds	energy_vs_hbonds_by_protein.png
+| Script | Purpose | Required CSV Columns | Output Figure |
+|--------|---------|----------------------|---------------|
+| `EDA_analysis.py` | Exploratory heatmaps & clustering | Matrix format (rows=features, cols=samples) | `heatmap.png`, `clustermap.png`, `correlation_matrix.png` |
+| `docking_heatmap.py` | Energy score heatmap | `Protein`, `Ligand`, `Energy_Score` | `docking_energy_heatmap.png` |
+| `docking_relplot_ligand.py` | Energy vs H-bonds by ligand | `Ligand`, `Energy_Score(kcal/mol)`, `Hydrogen_Bonds` | `energy_vs_hbonds_by_ligand.png` |
+| `docking_relplot_protein.py` | Energy vs H-bonds by protein | `Protein`, `Energy_Score(kcal/mol)`, `Hydrogen_Bonds` | `energy_vs_hbonds_by_protein.png` |
 
 
 ----
@@ -99,7 +97,28 @@ Expected Data Location: By default, scripts look for the CSV file in the same di
 
 ### Python Dependencies
 Create a conda environment or install directly:
-```bash
+``bash
 pip install pandas numpy matplotlib seaborn
+
+## Versions Tested
+Python 3.8+
+pandas >= 1.3.0
+seaborn >= 0.11.0
+matplotlib >= 3.3.0
+numpy >= 1.19.0
+
+# License and Citation
+
+This project is licensed under the MIT License:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Please cite:
+Marcio Renan Santos Tavares, Nayara Andreo, Teresa de Lisieux Guedes Ferreira Lôbo, Chirles Araújo de França, Wagner Pereira Felix, Maria Aparecida Scatamburlo Moreira, Vasco Ariston de Carvalho Azevedo, Bertram Brenig, Leonardo Broetto, Mateus Matiuzzi da Costa (2026). Exploring the Molecular Basis of Potassium Usnate Activity Against Staphylococcus warneri Persistence and Resistance Through Protein Interaction Networks and Molecular Docking. Network Modeling Analysis in Health Informatics and Bioinformatics (under review).
+
+
 
 
