@@ -89,7 +89,7 @@ Expected Data Location: By default, scripts look for the CSV file in the same di
 2.  **Data Format:** Each script includes a comment at the top describing the **required column structure** for the input CSV. Please ensure your data follows this format.
 
 ### Expected Input Format (for each script):
-- `EDA_analysis.py`: Requires a matrix-style CSV with proteins as rows and ligands as columns.
+- `EDA_analysis.py`: requires a matrix-style CSV file structured as follows: Rows: Protein families or protein identifiers. Columns: Genomes or sample names. Cell values: Numerical frequencies representing the count or presence of each protein identified in each genome via pHMM (profile Hidden Markov Model for each differente protein family) prediction.
 - `Docking_heatmap.py`: Requires CSV with columns: `Protein`, `Ligand`, `Energy_Score`.
 - `Docking_relplot_*.py`: Require CSV with columns: `Protein`, `Ligand`, `Energy_Score(kcal/mol)`, `Hydrogen_Bonds`.
 
@@ -118,7 +118,3 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 Please cite:
 Marcio Renan Santos Tavares, Nayara Andreo, Teresa de Lisieux Guedes Ferreira Lôbo, Chirles Araújo de França, Wagner Pereira Felix, Maria Aparecida Scatamburlo Moreira, Vasco Ariston de Carvalho Azevedo, Bertram Brenig, Leonardo Broetto, Mateus Matiuzzi da Costa (2026). Exploring the Molecular Basis of Potassium Usnate Activity Against Staphylococcus warneri Persistence and Resistance Through Protein Interaction Networks and Molecular Docking. Network Modeling Analysis in Health Informatics and Bioinformatics (under review).
-
-
-
-
