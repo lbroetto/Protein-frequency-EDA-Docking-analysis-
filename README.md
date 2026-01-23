@@ -15,13 +15,18 @@ This repository contains the custom Python scripts used for the computational an
 ---
 
 ## Repository Structure
-├── scripts/ # Main analysis scripts
-│ ├── EDA_analysis.py # Exploratory data analysis (heatmaps, clustering, correlation)
-│ ├── docking_heatmap.py # Heatmap of docking energy scores
-│ ├── docking_relplot_ligand.py # Scatter plot: Energy vs H-bonds (by Ligand)
-│ └── docking_relplot_protein.py # Scatter plot: Energy vs H-bonds (by Protein)
-└── README.md # This file
 
+| Directory/File | Description |
+|----------------|-------------|
+| `scripts/` | Main analysis scripts |
+| `├── EDA_analysis.py` | Exploratory data analysis (heatmaps, clustering, correlation) |
+| `├── docking_heatmap.py` | Heatmap of docking energy scores |
+| `├── docking_relplot_ligand.py` | Scatter plot: Energy vs H-bonds (by Ligand) |
+| `└── docking_relplot_protein.py` | Scatter plot: Energy vs H-bonds (by Protein) |
+| `data/` | Input data files (not included in repository) |
+| `figures/` | Generated output figures (PNG format) |
+| `README.md` | This documentation file |
+| `LICENSE` | GNU GPLv3 license file |
 ---
 
 ## Scripts Overview
