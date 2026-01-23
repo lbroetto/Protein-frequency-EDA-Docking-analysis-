@@ -131,6 +131,9 @@ For commercial applications or proprietary integration, please contact the autho
 
 The computational methods, algorithms, and models implemented in this software are research outcomes from Universidade Federal de Alagoas. While the source code is licensed under GPLv3 for academic and open-source use, commercial licensing options are available.
 
+This software is available under two licenses:
+1. GNU GPLv3 for open source/academic use
+2. Commercial license for proprietary use (contact author)
 For commercial licensing, technology transfer, or collaboration inquiries:
 Contact: Lbroetto@gmail.com, leonardo.broetto@arapiraca.ufal.br
 
