@@ -114,6 +114,9 @@ numpy >= 1.19.0
 
 # License and Citation
 
+### Please cite:
+Marcio Renan Santos Tavares, Nayara Andreo, Teresa de Lisieux Guedes Ferreira Lôbo, Chirles Araújo de França, Wagner Pereira Felix, Maria Aparecida Scatamburlo Moreira, Vasco Ariston de Carvalho Azevedo, Bertram Brenig, Leonardo Broetto, Mateus Matiuzzi da Costa (2026). Exploring the Molecular Basis of Potassium Usnate Activity Against Staphylococcus warneri Persistence and Resistance Through Protein Interaction Networks and Molecular Docking. Network Modeling Analysis in Health Informatics and Bioinformatics (under review).
+
 This project is licensed under the **GNU General Public License v3.0**.
 
 ### Terms for Academic/Research Use:
@@ -137,5 +140,21 @@ This software is available under two licenses:
 For commercial licensing, technology transfer, or collaboration inquiries:
 Contact: Lbroetto@gmail.com, leonardo.broetto@arapiraca.ufal.br
 
-### Please cite:
-Marcio Renan Santos Tavares, Nayara Andreo, Teresa de Lisieux Guedes Ferreira Lôbo, Chirles Araújo de França, Wagner Pereira Felix, Maria Aparecida Scatamburlo Moreira, Vasco Ariston de Carvalho Azevedo, Bertram Brenig, Leonardo Broetto, Mateus Matiuzzi da Costa (2026). Exploring the Molecular Basis of Potassium Usnate Activity Against Staphylococcus warneri Persistence and Resistance Through Protein Interaction Networks and Molecular Docking. Network Modeling Analysis in Health Informatics and Bioinformatics (under review).
+
+### Copyright and Licensing
+- **Copyright Holder:** Leonardo Broetto  
+- **License:** GNU General Public License v3.0  
+- **Year:** 2026
+
+### Research Attribution
+The computational methodologies implemented in this software were developed as part of research activities conducted by Leonardo Broetto. Associated research work is linked to Universidade Federal de Alagoas.
+
+### Usage Terms
+- **Academic/Research Use:** Permitted under GPLv3 with mandatory citation
+- **Commercial Use:** Requires alternative licensing (contact author)
+- **Derivative Works:** Must be released under GPLv3
+
+### Contact for Licensing
+Leonardo Broetto  
+Lbroetto@gmail.com, leonardo.broetto@arapiraca.ufal.br
+(Associated with Universidade Federal de Alagoas)
