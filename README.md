@@ -1,5 +1,7 @@
 # Computational Analysis Scripts for Exploratory data analysis and docking analysis of proteins
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18365240.svg)](https://doi.org/10.5281/zenodo.18365240)
+
 The scripts were written and developed by Leonardo Broetto (leonardo.broetto@arapiraca.ufal.br, Lbroetto@gmail.com)
 
 This repository contains the custom Python scripts used for the computational analyses in the manuscript:
