@@ -2,7 +2,7 @@
 
 [![Article](https://img.shields.io/badge/Article-Published-green.svg)](https://doi.org/10.1007/s13721-026-00767-7)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18365240.svg)](https://doi.org/10.5281/zenodo.18365240)
+[![DOI](https://zenodo.org/badge/1139332055.svg)](https://doi.org/10.5281/zenodo.18365239)
 
 The scripts were written and developed by Leonardo Broetto (leonardo.broetto@arapiraca.ufal.br, Lbroetto@gmail.com)
 
@@ -125,7 +125,7 @@ numpy >= 1.19.0
 Broetto, L. (2026). Exploring the Molecular Basis of Potassium Usnate Activity Against Staphylococcus warneri Persistence and Resistance Through Protein Interaction Networks and Molecular Docking. *Network Modeling Analysis in Health Informatics and Bioinformatics*. https://doi.org/10.1007/s13721-026-00767-7
 
 **Software (this version):**
-Broetto, L. (2026). Computational Analysis Scripts for Molecular Docking Study (v1.1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXX
+Broetto, L. (2026). Computational Analysis Scripts for Molecular Docking Study (v1.1.0) Version associated with published article [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.18944319
 
 If you use this scripts in your research, please cite:
 
@@ -138,8 +138,8 @@ If you use this scripts in your research, please cite:
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v1.1.0},
-  doi          = {10.5281/zenodo.18365240},
-  url          = {https://doi.org/10.5281/zenodo.18365240}
+  doi          = {10.5281/zenodo.18944319},
+  url          = {https://doi.org/10.5281/zenodo.18944319}
 }
 ```
 
