@@ -1,13 +1,16 @@
 # Computational Analysis Scripts for Exploratory data analysis and docking analysis of proteins
 
+[![Article](https://img.shields.io/badge/Article-Published-green.svg)](https://doi.org/10.1007/s13721-026-00767-7)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18365240.svg)](https://doi.org/10.5281/zenodo.18365240)
 
 The scripts were written and developed by Leonardo Broetto (leonardo.broetto@arapiraca.ufal.br, Lbroetto@gmail.com)
 
-This repository contains the custom Python scripts used for the computational analyses in the manuscript:
+This repository contains the custom Python scripts used for the computational analyses in the published manuscript:
 
-**Exploring the Molecular Basis of Potassium Usnate Activity Against Staphylococcus warneri Persistence and Resistance Through Protein Interaction Networks and Molecular Docking**  
-*Submitted to: Network Modeling Analysis in Health Informatics and Bioinformatics (Springer Nature)*
+**Exploring the Molecular Basis of Potassium Usnate Activity Against Staphylococcus warneri Persistence and Resistance Through Protein Interaction Networks and Molecular Docking**
+
+**Published in:** *Network Modeling Analysis in Health Informatics and Bioinformatics* (Springer Nature), 2026  
+**Article DOI:** [10.1007/s13721-026-00767-7](https://doi.org/10.1007/s13721-026-00767-7)
 
 # Contact
 **Authors:** Leonardo Broetto
@@ -117,7 +120,11 @@ numpy >= 1.19.0
 # License and Citation
 
 ### Please cite:
-Marcio Renan Santos Tavares, Nayara Andreo, Teresa de Lisieux Guedes Ferreira Lôbo, Chirles Araújo de França, Wagner Pereira Felix, Maria Aparecida Scatamburlo Moreira, Vasco Ariston de Carvalho Azevedo, Bertram Brenig, Leonardo Broetto, Mateus Matiuzzi da Costa (2026). Exploring the Molecular Basis of Potassium Usnate Activity Against Staphylococcus warneri Persistence and Resistance Through Protein Interaction Networks and Molecular Docking. Network Modeling Analysis in Health Informatics and Bioinformatics (under review).
+**Article:**
+Broetto, L. (2026). Exploring the Molecular Basis of Potassium Usnate Activity Against Staphylococcus warneri Persistence and Resistance Through Protein Interaction Networks and Molecular Docking. *Network Modeling Analysis in Health Informatics and Bioinformatics*. https://doi.org/10.1007/s13721-026-00767-7
+
+**Software (this version):**
+Broetto, L. (2026). Computational Analysis Scripts for Molecular Docking Study (v1.1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXX
 
 If you use this scripts in your research, please cite:
 
@@ -125,12 +132,11 @@ If you use this scripts in your research, please cite:
 ```bibtex
 @software{broetto_docking_analysis_2026,
   author       = {Leonardo Broetto},
-  title        = {{Python scripts for proteins exploratory data analysis 
-                   and molecular docking visualization}},
+  title        = {{Computational Analysis Scripts for Exploratory data analysis and docking analysis of proteins}},
   month        = jan,
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {v1.0.0},
+  version      = {v1.1.0},
   doi          = {10.5281/zenodo.18365240},
   url          = {https://doi.org/10.5281/zenodo.18365240}
 }
